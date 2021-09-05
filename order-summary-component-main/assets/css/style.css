@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-paleblue: hsl(225, 100%, 94%);
+  --primary-brightblue: hsl(245, 75%, 52%);
+  --neutral-verypaleblue: hsl(225, 100%, 98%);
+  --neutral-desaturetedblue: hsl(224, 23%, 55%);
+  --neutral-darkblue: hsl(223, 47%, 23%);
+  --white: white;
+}
+
+body {
+  background: url("../images/pattern-background-desktop.svg") var(--primary-paleblue) no-repeat;
+  background-size: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--neutral-darkblue);
+}
+
+body .card {
+  background-color: var(--white);
+  width: 80%;
+  max-width: 450px;
+  max-height: 700px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 15px var(--neutral-darkblue);
+          box-shadow: 0px 3px 15px var(--neutral-darkblue);
+}
+
+body .card .logo {
+  background: url(../images/illustration-hero.svg) no-repeat;
+  height: 220px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+body .card .infos {
+  text-align: center;
+  font-size: 16px;
+}
+
+body .card .infos h2 {
+  padding: 45px 0 20px 0;
+  font-weight: 900;
+}
+
+body .card .infos p {
+  color: var(--neutral-desaturetedblue);
+  line-height: 25px;
+}
+
+body .card .plan {
+  width: 80%;
+  margin: 30px 40px 30px 40px;
+  height: 100px;
+  background: var(--neutral-verypaleblue);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .card .plan .plan-text {
+  margin-right: 60px;
+  line-height: 25px;
+}
+
+body .card .plan .plan-text p:first-of-type {
+  font-weight: 900;
+}
+
+body .card .plan .plan-text p:last-of-type {
+  color: var(--neutral-desaturetedblue);
+}
+
+body .card .plan .plan-btn {
+  font-size: 14px;
+  color: var(--primary-brightblue);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body .card .plan .plan-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body .card .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 120px;
+}
+
+body .card .buttons .pay {
+  line-height: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 25px var(--neutral-darkblue);
+          box-shadow: 0px 7px 25px var(--neutral-darkblue);
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  background: var(--primary-brightblue);
+  color: var(--white);
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+body .card .buttons .pay:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+body .card .buttons .cancel {
+  border: none;
+  background: none;
+  font-weight: 900;
+  color: var(--neutral-desaturetedblue);
+}
+
+body .card .buttons .cancel:hover {
+  color: var(--neutral-darkblue);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .plan {
+    margin-left: 30px !important;
+  }
+  .plan .plan-text {
+    margin-right: 0 !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
