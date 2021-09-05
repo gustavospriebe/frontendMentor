@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./assets/design/screenshot.png](./screenshot.jpg)
+![](./assets/design/screenshot.png)
 
 ### Links
 
@@ -37,7 +37,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Sass
-- 
 
 ## Author
 - Gustavo Siqueira Priebe | Web Developer
