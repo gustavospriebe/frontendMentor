@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Barlow", sans-serif;
+  color: #1c2020;
+  background: #e5e5e073;
+}
+
+.conteudo {
+  padding-top: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.conteudo img {
+  width: 500px;
+}
+
+.conteudo .titulo {
+  font-size: 36px;
+  margin: 30px 0;
+}
+
+.conteudo .desafios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.conteudo .desafios .esquerda {
+  max-width: 600px;
+  max-height: 420px;
+  -webkit-box-shadow: 0px 1px 3px #1c2020;
+          box-shadow: 0px 1px 3px #1c2020;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.conteudo .desafios .esquerda a {
+  text-decoration: none;
+}
+
+.conteudo .desafios .esquerda .image {
+  height: 80%;
+}
+
+.conteudo .desafios .esquerda .image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.conteudo .desafios .esquerda .descricao {
+  height: 20%;
+  border-radius: 5px;
+  background: #e5e5e073;
+}
+
+.conteudo .desafios .esquerda .descricao p {
+  font-size: 24px;
+  line-height: 75px;
+  color: #1c2020;
+}
+
+.conteudo .desafios .direita {
+  max-width: 600px;
+  max-height: 420px;
+  -webkit-box-shadow: 0px 1px 3px #1c2020;
+          box-shadow: 0px 1px 3px #1c2020;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.conteudo .desafios .direita a {
+  text-decoration: none;
+}
+
+.conteudo .desafios .direita .image {
+  height: 80%;
+}
+
+.conteudo .desafios .direita .image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.conteudo .desafios .direita .descricao {
+  height: 20%;
+  border-radius: 5px;
+  background: #e5e5e073;
+}
+
+.conteudo .desafios .direita .descricao p {
+  font-size: 24px;
+  line-height: 75px;
+  color: #1c2020;
+}
+
+.footer {
+  width: 100%;
+  height: 43px;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer p a {
+  color: #1c2020;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
